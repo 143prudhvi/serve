@@ -17,13 +17,13 @@ public class SlipResponse {
     private double weightavg;
     private long totalweight;
 
-    public SlipResponse(long slipcount, double costavg, double priceavg, double weightavg, long totalweight) {
-        this.slipcount = slipcount;
-        this.costavg = costavg;
-        this.priceavg = priceavg;
-        this.weightavg = weightavg;
-        this.totalweight = totalweight;
-    }
+//     public SlipResponse(long slipcount, double costavg, double priceavg, double weightavg, long totalweight) {
+//         this.slipcount = slipcount;
+//         this.costavg = costavg;
+//         this.priceavg = priceavg;
+//         this.weightavg = weightavg;
+//         this.totalweight = totalweight;
+//     }
 
     public long getSlipcount() {
         return slipcount;
